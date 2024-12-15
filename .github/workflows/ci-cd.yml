@@ -27,5 +27,3 @@ jobs:
 
     - name: Deploy Docker Stack
       uses: docker/compose@v2
-      with:
-        file: docker-compose.yml
