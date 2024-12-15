@@ -1,9 +1,9 @@
 ﻿{
-  "agentId": 21,
-  "agentName": "WIN-AEJ7IJ4PEJC",
+  "agentId": 22,
+  "agentName": "Olegus",
   "poolId": 1,
   "poolName": "Default",
   "serverUrl": "https://pipelinesghubeus26.actions.githubusercontent.com/8yTLLyWdVzHfGid0eOEayTbFYSA16AeOD5IX6RGrvzbzoChmL9/",
   "gitHubUrl": "https://github.com/NeverNeverDead/Client-Data-Project",
-  "workFolder": "_work"
+  "workFolder": "client_data_project"
 }
