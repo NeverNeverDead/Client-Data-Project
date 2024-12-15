@@ -4,27 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Управление клиентами</title>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
     <h1>Система управления данными клиентов для страховых компаний</h1>
+
+    <div>
+        <h2>Добавить нового клиента:</h2>
+        <form id="add-client-form">
+            <input type="text" id="client-name" placeholder="Имя клиента" required>
+            <input type="text" id="client-policy" placeholder="Номер полиса" required>
+            <button type="submit">Добавить клиента</button>
+        </form>
+    </div>
+
     <div>
         <h2>Клиенты:</h2>
         <ul id="clients-list"></ul>
     </div>
+
+    <div>
+        <h2>Поиск клиента:</h2>
+        <input type="text" id="search-client" placeholder="Введите имя или номер полиса">
+        <ul id="search-results"></ul>
+    </div>
+
     <script>
-        // Ваш код для запроса к API
-        fetch('http://localhost:5000/clients')
+        // Код для добавления клиента
+        document.getElementById('add-client-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const name = document.getElementById('client-name').value;
+            const policy = document.getElementById('client-policy').value;
+
+            fetch('http://localhost:5000/clients', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ name, policy })
+            })
             .then(response => response.json())
             .then(data => {
-                const clientsList = document.getElementById('clients-list');
-                data.forEach(client => {
-                    const li = document.createElement('li');
-                    li.textContent = `${client.id}: ${client.name} (Полис: ${client.policy})`;
-                    clientsList.appendChild(li);
-                });
+                alert(data.message);
+                fetchClients();
             })
             .catch(error => console.error('Ошибка:', error));
+        });
+
+        // Код для отображения списка клиентов
+        function fetchClients() {
+            fetch('http://localhost:5000/clients')
+                .then(response => response.json())
+                .then(data => {
+                    const clientsList = document.getElementById('clients-list');
+                    clientsList.innerHTML = '';
+                    data.forEach(client => {
+                        const li = document.createElement('li');
+                        li.textContent = `${client.id}: ${client.name} (Полис: ${client.policy})`;
+                        clientsList.appendChild(li);
+                    });
+                })
+                .catch(error => console.error('Ошибка:', error));
+        }
+
+        // Код для поиска клиента
+        document.getElementById('search-client').addEventListener('input', function(event) {
+            const query = event.target.value;
+
+            fetch(`http://localhost:5000/clients?search=${query}`)
+                .then(response => response.json())
+                .then(data => {
+                    const searchResults = document.getElementById('search-results');
+                    searchResults.innerHTML = '';
+                    data.forEach(client => {
+                        const li = document.createElement('li');
+                        li.textContent = `${client.id}: ${client.name} (Полис: ${client.policy})`;
+                        searchResults.appendChild(li);
+                    });
+                })
+                .catch(error => console.error('Ошибка:', error));
+        });
+
+        // Инициализация при загрузке страницы
+        fetchClients();
     </script>
 </body>
 </html>
-

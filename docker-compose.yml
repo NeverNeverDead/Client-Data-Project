@@ -10,7 +10,7 @@ services:
       POSTGRES_PASSWORD: strongpassword
       POSTGRES_DB: insurance_data
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
@@ -23,36 +23,34 @@ services:
       - "8081:80"
 
   flask_api:
-    image: client_data_project-flask_api
+    image: curvereality/client_data_project-flask_api:latest
     deploy:
       replicas: 3
     ports:
       - "5000:5000"
     depends_on:
       - database
-
-  message_queue:
-    image: rabbitmq:management
-    ports:
-      - "5672:5672"
-      - "15672:15672"
+      - message_queue
 
   frontend:
-    image: client_data_project-frontend
+    image: curvereality/client_data_project-frontend:latest
     deploy:
       replicas: 2
     ports:
-      - "3000:80"
+      - "3001:80"
 
-  message_consumer:
-    image: curvereality/message_consumer:latest
-    depends_on:
-      - message_queue
+  message_queue:
+    image: rabbitmq:3-management
+    deploy:
+      replicas: 1
+    ports:
+      - "5672:5672"
+      - "15672:15672"
 
 volumes:
   postgres_data:
 
 networks:
   default:
-    driver: overlay  # Установка драйвера overlay для сети
-
+    driver: overlay
+    attachable: true
