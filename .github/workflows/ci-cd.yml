@@ -7,32 +7,24 @@ on:
 
 jobs:
   build-and-push:
-    name: Build and Push Docker Images
-    runs-on: ubuntu-24.04
+      name: Build and Push Docker Images
+      runs-on: ubuntu-24.04
 
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v2
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
 
-    - name: Log in to Docker Hub
-      uses: docker/login-action@v2
-      with:
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+      - name: Log in to Docker Hub
+        run: |
+          echo ${{ secrets.DOCKER_PASSWORD }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
 
-    - name: Build and Push Flask API Image
-      uses: docker/compose-action@v2
-      with:
-        file: ./docker-compose.yml
-        context: .
-        push: true
+      - name: Build and Push Flask API Image
+        run: |
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/client_data_project-flask_api:latest -f backend/Dockerfile .
 
-    - name: Build and Push Frontend Image
-      uses: docker/compose-action@v3
-      with:
-        file: ./docker-compose.yml
-        context: .
-        push: true
+      - name: Build and Push Frontend Image
+        run: |
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/client_data_project-frontend:latest -f frontend/Dockerfile .
