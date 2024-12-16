@@ -30,7 +30,7 @@
     </div>
 
     <script>
-        // Код для добавления клиента
+
         document.getElementById('add-client-form').addEventListener('submit', function(event) {
             event.preventDefault();
             const name = document.getElementById('client-name').value;
@@ -51,7 +51,7 @@
             .catch(error => console.error('Ошибка:', error));
         });
 
-        // Код для отображения списка клиентов
+
         function fetchClients() {
             fetch('http://localhost:5000/clients')
                 .then(response => response.json())
@@ -67,7 +67,7 @@
                 .catch(error => console.error('Ошибка:', error));
         }
 
-        // Код для поиска клиента
+
         document.getElementById('search-client').addEventListener('input', function(event) {
             const query = event.target.value;
 
@@ -85,7 +85,7 @@
                 .catch(error => console.error('Ошибка:', error));
         });
 
-        // Инициализация при загрузке страницы
+
         fetchClients();
     </script>
 </body>
