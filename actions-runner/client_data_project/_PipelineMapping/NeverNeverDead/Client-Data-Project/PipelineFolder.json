@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "NeverNeverDead/Client-Data-Project",
+  "pipelineDirectory": "Client-Data-Project",
+  "workspaceDirectory": "Client-Data-Project\\Client-Data-Project",
+  "repositories": {
+    "NeverNeverDead/Client-Data-Project": {
+      "repositoryPath": "Client-Data-Project\\Client-Data-Project",
+      "lastRunOn": "12/16/2024 00:01:58 +03:00"
+    }
+  },
+  "lastRunOn": "12/16/2024 00:01:58 +03:00"
+}

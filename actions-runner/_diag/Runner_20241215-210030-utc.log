@@ -1,0 +1,247 @@
+[2024-12-15 21:00:30Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\user\Desktop\client_data_project\actions-runner\bin'
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\user\Desktop\client_data_project\actions-runner'
+[2024-12-15 21:00:30Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\user\Desktop\client_data_project\actions-runner\.credentials'
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\user\Desktop\client_data_project\actions-runner\bin'
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\user\Desktop\client_data_project\actions-runner'
+[2024-12-15 21:00:30Z INFO HostContext] Well known config file 'Runner': 'C:\Users\user\Desktop\client_data_project\actions-runner\.runner'
+[2024-12-15 21:00:30Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2024-12-15 21:00:30Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.26100.
+[2024-12-15 21:00:30Z INFO Listener] Version: 2.321.0
+[2024-12-15 21:00:30Z INFO Listener] Commit: e249007931b7c8e857797fa259c167f0bd4f997a
+[2024-12-15 21:00:30Z INFO Listener] Culture: ru-RU
+[2024-12-15 21:00:30Z INFO Listener] UI Culture: ru-RU
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\user\Desktop\client_data_project\actions-runner\bin'
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\user\Desktop\client_data_project\actions-runner'
+[2024-12-15 21:00:30Z INFO Listener] Validating directory permissions for: 'C:\Users\user\Desktop\client_data_project\actions-runner'
+[2024-12-15 21:00:30Z INFO CommandLineParser] Parse
+[2024-12-15 21:00:30Z INFO CommandLineParser] Parsing 1 args
+[2024-12-15 21:00:30Z INFO CommandLineParser] parsing argument
+[2024-12-15 21:00:30Z INFO CommandLineParser] HasArgs: False
+[2024-12-15 21:00:30Z INFO CommandLineParser] Adding Command: run
+[2024-12-15 21:00:30Z INFO Listener] Arguments parsed
+[2024-12-15 21:00:30Z INFO Runner] ExecuteCommand
+[2024-12-15 21:00:30Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\user\Desktop\client_data_project\actions-runner\bin\Runner.Listener.dll
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\user\Desktop\client_data_project\actions-runner\bin'
+[2024-12-15 21:00:30Z INFO ConfigurationStore] binPath: C:\Users\user\Desktop\client_data_project\actions-runner\bin
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\user\Desktop\client_data_project\actions-runner\bin'
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\user\Desktop\client_data_project\actions-runner'
+[2024-12-15 21:00:30Z INFO ConfigurationStore] RootFolder: C:\Users\user\Desktop\client_data_project\actions-runner
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\user\Desktop\client_data_project\actions-runner\bin'
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\user\Desktop\client_data_project\actions-runner'
+[2024-12-15 21:00:30Z INFO HostContext] Well known config file 'Runner': 'C:\Users\user\Desktop\client_data_project\actions-runner\.runner'
+[2024-12-15 21:00:30Z INFO ConfigurationStore] ConfigFilePath: C:\Users\user\Desktop\client_data_project\actions-runner\.runner
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\user\Desktop\client_data_project\actions-runner\bin'
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\user\Desktop\client_data_project\actions-runner'
+[2024-12-15 21:00:30Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\user\Desktop\client_data_project\actions-runner\.credentials'
+[2024-12-15 21:00:30Z INFO ConfigurationStore] CredFilePath: C:\Users\user\Desktop\client_data_project\actions-runner\.credentials
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\user\Desktop\client_data_project\actions-runner\bin'
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\user\Desktop\client_data_project\actions-runner'
+[2024-12-15 21:00:30Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\user\Desktop\client_data_project\actions-runner\.credentials_migrated'
+[2024-12-15 21:00:30Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\user\Desktop\client_data_project\actions-runner\.credentials_migrated
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\user\Desktop\client_data_project\actions-runner\bin'
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\user\Desktop\client_data_project\actions-runner'
+[2024-12-15 21:00:30Z INFO HostContext] Well known config file 'Service': 'C:\Users\user\Desktop\client_data_project\actions-runner\.service'
+[2024-12-15 21:00:30Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\user\Desktop\client_data_project\actions-runner\.service
+[2024-12-15 21:00:30Z INFO CommandSettings] Flag 'help': 'False'
+[2024-12-15 21:00:30Z INFO CommandSettings] Flag 'version': 'False'
+[2024-12-15 21:00:30Z INFO CommandSettings] Flag 'commit': 'False'
+[2024-12-15 21:00:30Z INFO CommandSettings] Flag 'check': 'False'
+[2024-12-15 21:00:30Z INFO CommandSettings] Command 'configure': 'False'
+[2024-12-15 21:00:30Z INFO CommandSettings] Command 'remove': 'False'
+[2024-12-15 21:00:30Z INFO CommandSettings] Command 'warmup': 'False'
+[2024-12-15 21:00:30Z INFO ConfigurationManager] LoadSettings
+[2024-12-15 21:00:30Z INFO ConfigurationStore] IsConfigured()
+[2024-12-15 21:00:30Z INFO ConfigurationStore] IsConfigured: True
+[2024-12-15 21:00:30Z INFO ConfigurationManager] Is configured: True
+[2024-12-15 21:00:30Z INFO ConfigurationStore] Read setting file: 330 chars
+[2024-12-15 21:00:30Z INFO ConfigurationManager] Settings Loaded
+[2024-12-15 21:00:30Z INFO ConfigurationStore] IsServiceConfigured()
+[2024-12-15 21:00:30Z INFO ConfigurationStore] IsServiceConfigured: True
+[2024-12-15 21:00:30Z INFO CommandSettings] Command 'run': 'True'
+[2024-12-15 21:00:30Z INFO ConfigurationStore] IsConfigured()
+[2024-12-15 21:00:30Z INFO ConfigurationStore] IsConfigured: True
+[2024-12-15 21:00:30Z INFO ConfigurationManager] Is configured: True
+[2024-12-15 21:00:30Z INFO Runner] Try determine runner startup type base on console redirects.
+[2024-12-15 21:00:30Z INFO Runner] Set runner startup type - Manual
+[2024-12-15 21:00:30Z INFO CommandSettings] Flag 'once': 'False'
+[2024-12-15 21:00:30Z INFO CommandSettings] Flag 'once': 'False'
+[2024-12-15 21:00:30Z INFO Runner] RunAsync
+[2024-12-15 21:00:30Z INFO ConfigurationManager] LoadSettings
+[2024-12-15 21:00:30Z INFO ConfigurationStore] IsConfigured()
+[2024-12-15 21:00:30Z INFO ConfigurationStore] IsConfigured: True
+[2024-12-15 21:00:30Z INFO ConfigurationManager] Is configured: True
+[2024-12-15 21:00:30Z INFO ConfigurationManager] Settings Loaded
+[2024-12-15 21:00:30Z INFO MessageListener] {
+  "AgentId": 22,
+  "AgentName": "Olegus",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus26.actions.githubusercontent.com/8yTLLyWdVzHfGid0eOEayTbFYSA16AeOD5IX6RGrvzbzoChmL9/",
+  "GitHubUrl": "https://github.com/NeverNeverDead/Client-Data-Project",
+  "WorkFolder": "client_data_project"
+}
+[2024-12-15 21:00:30Z INFO MessageListener] Loading Credentials
+[2024-12-15 21:00:30Z INFO ConfigurationStore] HasCredentials()
+[2024-12-15 21:00:30Z INFO ConfigurationStore] stored True
+[2024-12-15 21:00:30Z INFO CredentialManager] GetCredentialProvider
+[2024-12-15 21:00:30Z INFO CredentialManager] Creating type OAuth
+[2024-12-15 21:00:30Z INFO CredentialManager] Creating credential type: OAuth
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\user\Desktop\client_data_project\actions-runner\bin'
+[2024-12-15 21:00:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\user\Desktop\client_data_project\actions-runner'
+[2024-12-15 21:00:30Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\user\Desktop\client_data_project\actions-runner\.credentials_rsaparams'
+[2024-12-15 21:00:30Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\user\Desktop\client_data_project\actions-runner\.credentials_rsaparams
+[2024-12-15 21:00:30Z INFO MessageListener] Attempt to create session.
+[2024-12-15 21:00:30Z INFO MessageListener] Connecting to the Runner Server...
+[2024-12-15 21:00:30Z INFO RunnerServer] EstablishVssConnection
+[2024-12-15 21:00:30Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2024-12-15 21:00:30Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-15 21:00:30Z INFO RunnerServer] EstablishVssConnection
+[2024-12-15 21:00:30Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-12-15 21:00:30Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-15 21:00:30Z INFO RunnerServer] EstablishVssConnection
+[2024-12-15 21:00:30Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-12-15 21:00:30Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-15 21:00:30Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-15 21:00:30Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-15 21:00:30Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-15 21:00:31Z INFO MessageListener] VssConnection created
+[2024-12-15 21:00:31Z INFO Terminal] WRITE LINE: 
+[2024-12-15 21:00:31Z INFO Terminal] WRITE LINE: 
+[2024-12-15 21:00:31Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\user\Desktop\client_data_project\actions-runner\.credentials_rsaparams
+[2024-12-15 21:00:31Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\user\Desktop\client_data_project\actions-runner\.credentials_rsaparams
+[2024-12-15 21:00:31Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-12-15 21:00:32Z INFO MessageListener] Session created.
+[2024-12-15 21:00:32Z INFO Terminal] WRITE LINE: Current runner version: '2.321.0'
+[2024-12-15 21:00:32Z INFO Terminal] WRITE LINE: 2024-12-15 21:00:32Z: Listening for Jobs
+[2024-12-15 21:00:32Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2024-12-15 21:00:32Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\user\Desktop\client_data_project\actions-runner\.credentials_rsaparams
+[2024-12-15 21:00:32Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-12-15 21:01:54Z INFO MessageListener] Message '5565119653404391362' received from session '03f31ab6-6716-45d4-9a47-8eafa5fc35db'.
+[2024-12-15 21:01:54Z INFO ConfigurationStore] HasCredentials()
+[2024-12-15 21:01:54Z INFO ConfigurationStore] stored True
+[2024-12-15 21:01:54Z INFO CredentialManager] GetCredentialProvider
+[2024-12-15 21:01:54Z INFO CredentialManager] Creating type OAuth
+[2024-12-15 21:01:54Z INFO CredentialManager] Creating credential type: OAuth
+[2024-12-15 21:01:54Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\user\Desktop\client_data_project\actions-runner\.credentials_rsaparams
+[2024-12-15 21:01:54Z INFO ActionsRunServer] EstablishVssConnection
+[2024-12-15 21:01:54Z INFO ActionsRunServer] Establish connection with 100 seconds timeout.
+[2024-12-15 21:01:54Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-12-15 21:01:54Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-12-15 21:01:55Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\user\Desktop\client_data_project\actions-runner\.credentials_rsaparams
+[2024-12-15 21:01:55Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\user\Desktop\client_data_project\actions-runner\.credentials_rsaparams
+[2024-12-15 21:01:55Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-12-15 21:01:56Z INFO JobDispatcher] Job request 76 for plan 47b7dcd9-6206-4b7d-a84a-b03c056b5b6d job cc9a95ae-b53c-5dc6-d946-f5dd67afb660 received.
+[2024-12-15 21:01:56Z INFO JobDispatcher] Pull OrchestrationId 47b7dcd9-6206-4b7d-a84a-b03c056b5b6d.build-and-push.__default from JWT claims
+[2024-12-15 21:01:56Z INFO MessageListener] Received job status event. JobState: Busy
+[2024-12-15 21:01:56Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2024-12-15 21:01:56Z INFO Terminal] WRITE LINE: 2024-12-15 21:01:56Z: Running job: Build and Push Docker Images
+[2024-12-15 21:01:56Z INFO JobDispatcher] Start renew job request 76 for job cc9a95ae-b53c-5dc6-d946-f5dd67afb660.
+[2024-12-15 21:01:57Z INFO JobDispatcher] Successfully renew job request 76, job is valid till 15.12.2024 21:11:56
+[2024-12-15 21:01:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\user\Desktop\client_data_project\actions-runner\bin'
+[2024-12-15 21:01:57Z INFO ProcessInvokerWrapper] Starting process:
+[2024-12-15 21:01:57Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\user\Desktop\client_data_project\actions-runner\bin\Runner.Worker.exe'
+[2024-12-15 21:01:57Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2228 1612'
+[2024-12-15 21:01:57Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\user\Desktop\client_data_project\actions-runner\bin'
+[2024-12-15 21:01:57Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-12-15 21:01:57Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-12-15 21:01:57Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-12-15 21:01:57Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-12-15 21:01:57Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-12-15 21:01:57Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-12-15 21:01:57Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-12-15 21:01:57Z INFO ProcessInvokerWrapper] Process started with process id 21412, waiting for process exit.
+[2024-12-15 21:01:57Z INFO JobDispatcher] Send job request message to worker for job cc9a95ae-b53c-5dc6-d946-f5dd67afb660.
+[2024-12-15 21:01:57Z INFO ProcessChannel] Sending message of length 26472, with hash 'b7c3ab689f2dd1809277a4402c718feedf5822b3780bd6a496c8fe7068f3b931'
+[2024-12-15 21:01:57Z INFO JobNotification] Entering JobStarted Notification
+[2024-12-15 21:01:57Z INFO JobNotification] Entering StartMonitor
+[2024-12-15 21:02:57Z INFO JobDispatcher] Successfully renew job request 76, job is valid till 15.12.2024 21:12:56
+[2024-12-15 21:03:57Z INFO JobDispatcher] Successfully renew job request 76, job is valid till 15.12.2024 21:13:57
+[2024-12-15 21:04:57Z INFO JobDispatcher] Successfully renew job request 76, job is valid till 15.12.2024 21:14:57
+[2024-12-15 21:05:57Z INFO JobDispatcher] Successfully renew job request 76, job is valid till 15.12.2024 21:15:57
+[2024-12-15 21:06:17Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-12-15 21:06:17Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-12-15 21:06:17Z INFO ProcessInvokerWrapper] Finished process 21412 with exit code 102, and elapsed time 00:04:20.8023423.
+[2024-12-15 21:06:17Z INFO JobDispatcher] Worker finished for job cc9a95ae-b53c-5dc6-d946-f5dd67afb660. Code: 102
+[2024-12-15 21:06:17Z INFO JobDispatcher] finish job request for job cc9a95ae-b53c-5dc6-d946-f5dd67afb660 with result: Failed
+[2024-12-15 21:06:17Z INFO Terminal] WRITE LINE: 2024-12-15 21:06:17Z: Job Build and Push Docker Images completed with result: Failed
+[2024-12-15 21:06:17Z INFO JobDispatcher] Stop renew job request for job cc9a95ae-b53c-5dc6-d946-f5dd67afb660.
+[2024-12-15 21:06:17Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 76.
+[2024-12-15 21:06:17Z INFO JobNotification] Entering JobCompleted Notification
+[2024-12-15 21:06:17Z INFO JobNotification] Entering EndMonitor
+[2024-12-15 21:06:17Z INFO MessageListener] Received job status event. JobState: Online
+[2024-12-15 21:08:58Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2024-12-15 21:08:58Z WARN GitHubActionsService] GET request to https://broker.actions.githubusercontent.com/message?sessionId=03f31ab6-6716-45d4-9a47-8eafa5fc35db&status=Online&runnerVersion=2.321.0&os=Windows&architecture=X64&disableUpdate=false has been cancelled.
+[2024-12-15 21:08:58Z ERR  BrokerServer] Catch exception during request
+[2024-12-15 21:08:58Z ERR  BrokerServer] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения..
+ ---> System.Net.Sockets.SocketException (995): Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.RawHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpRequestMessage message, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at Sdk.WebApi.WebApi.RawHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Uri requestUri, HttpContent content, IEnumerable`1 queryParameters, Boolean readErrorBody, Object userState, CancellationToken cancellationToken)
+   at GitHub.Actions.RunService.WebApi.BrokerHttpClient.GetRunnerMessageAsync(Nullable`1 sessionId, String runnerVersion, Nullable`1 status, String os, String architecture, Nullable`1 disableUpdate, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.BrokerServer.<>c__DisplayClass7_0.<<GetRunnerMessageAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at GitHub.Runner.Common.RunnerService.RetryRequest[T](Func`1 func, CancellationToken cancellationToken, Int32 maxRetryAttemptsCount, Func`2 shouldRetry)
+[2024-12-15 21:08:58Z ERR  BrokerServer] #####################################################
+[2024-12-15 21:08:58Z ERR  BrokerServer] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения..
+ ---> System.Net.Sockets.SocketException (995): Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.RawHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+[2024-12-15 21:08:58Z ERR  BrokerServer] #####################################################
+[2024-12-15 21:08:58Z ERR  BrokerServer] System.IO.IOException: Unable to read data from the transport connection: Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения..
+ ---> System.Net.Sockets.SocketException (995): Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2024-12-15 21:08:58Z ERR  BrokerServer] #####################################################
+[2024-12-15 21:08:58Z ERR  BrokerServer] System.Net.Sockets.SocketException (995): Операция ввода/вывода была прервана из-за завершения потока команд или по запросу приложения.
+[2024-12-15 21:08:58Z WARN BrokerServer] Back off 7,732 seconds before next retry. 4 attempt left.
+[2024-12-15 21:08:58Z INFO MessageListener] Get next message has been cancelled.
+[2024-12-15 21:08:58Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2024-12-15 21:08:58Z INFO JobDispatcher] Ensure WorkerDispatcher for job cc9a95ae-b53c-5dc6-d946-f5dd67afb660 run to finish, cancel any running job.
+[2024-12-15 21:08:58Z INFO JobDispatcher] Job request cc9a95ae-b53c-5dc6-d946-f5dd67afb660 processed succeed.
+[2024-12-15 21:08:58Z INFO Runner] Deleting Runner Session...
+[2024-12-15 21:08:58Z INFO Listener] 
